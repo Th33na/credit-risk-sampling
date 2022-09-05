@@ -24,12 +24,18 @@ Results
 
 Logistic Regression Model with the Original Data:
 
-* Model accuracy is 95%, Precision avg 99%, and Recall scores avg 99%.
+* Model accuracy is 95.2%
+* Precision average 99%
+* Recall average 99%
+* F1 score average 100%
 
 Logistic Regression Model with Resampled Training Data:
 
-* Model accuracy is 95%, Precision avg 99%, and Recall scores avg 99%.
+* Model accuracy is 95.2%
+* Precision average 99%
+* Recall average 99%
+* F1 score average 100%
 
 Summary
 
-Based on the Logistic Regression Models (first fit with original data and another fit with oversampled data), both healthly (0) and high risk (1) loans were also labeled with a 95% Geometric Mean, indicative of good performance in the classification. The precision is 100% for the healthy loans while 85% (a bit low) for the high risk loans. Based on Recall, we caught 99% for healthy loan and 91% for high risk loans. The F1 score for healthy loans is 100%. But high risk loans have an 88% F1 score, which is relatively low. Overall, the average Model accuracy is 95%, average Precision is 99%, and average recall is 99% as well. 
+Based on the Logistic Regression Models (first fit with original data and another fit with oversampled data), both healthly (0) and high risk (1) loans were also labeled with a 95% Geometric Mean, indicative of good performance in the classification. The precision is 100% for the healthy loans while 85% (a bit low) for the high risk loans. Based on Recall, we caught 99% for healthy loan and 91% for high risk loans. The F1 score for healthy loans is 100%. But high risk loans have an 88% F1 score, which is relatively low. Overall, the average Model accuracy is 95.2%, average Precision is 99%, and average recall is 99% as well. 
